@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h3 class="wrapper__title">
+      Добавить локацию / представительство
+    </h3>
+    <hr>
+    <form action="#" class="form">
+      <div class="form__container">
+        <input type="text" class="form__input form_full" placeholder="Название категории">
+        <p>Укажите корневой категории пасадочной страницы, например 'нотариальные услуги'</p>
+      </div>
+
+      <div class="form__container form__container_flex">
+        <label class="form__label">Фото:</label>
+        <input type="text" class="form__input" placeholder="Нет">
+      </div>
+      <hr>
+
+      <div class="form__container form__container_flex">
+        <label class="form__label">Родительская категория: </label>
+        <input type="text" class="form__input" placeholder="Нет">
+      </div>
+      <hr>
+      <div class="form__container">
+        <textarea name="" id="" cols="30" rows="10" class="form__textarea form_full" placeholder="Описание"></textarea>
+        <p>Укажите текст описания категории, которая будет рекламироваться</p>
+      </div>
+
+      <div class="form__container">
+        <input type="text" class="form__input form_full" placeholder="URL посадочной станции 'Услуги'">
+        <p>Укажите URL раздела каталога, который соответствует созданной категории'</p>
+      </div>
+
+      <div class="form__container">
+        <button class="form__btn form__btn_focus" type="submit">Сохранить изменения</button>
+        <button class="form__btn">Отмена</button>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>
